@@ -36,7 +36,7 @@ html {
   color: $c-4;
   background-color:$c-2;
   margin: auto;
-  min-width: 60%;
+  min-width: 70%;
   height: auto;
   position: absolute;  
   left: 50%;                       
@@ -56,16 +56,8 @@ html {
 .image-wrapper-home-card-text{
   color: $c-4;
   background-color:$c-2;
-  margin: auto;
-  min-width: 60%;
-  height: auto;
-  position: absolute;  
-  left: 50%;                       
-  top: 50%;           
   padding: 10px;
-  transform: translate(-50%, -50%); 
-  text-align: center;
   border-radius: 9px;
-  opacity: 1 !important;
+  opacity: 1;
  
 }

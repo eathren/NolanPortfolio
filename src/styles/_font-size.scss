@@ -10,6 +10,7 @@ $h2: 1.5rem;
 $h3: 1.25rem;
 $h4: 1rem;
 $h5: .875rem;
+$p: .9rem;
 
 
 @mixin fluid-type($properties, $min-vw, $max-vw, $min-value, $max-value) {
@@ -48,7 +49,8 @@ body {
 
 p{	
 	line-height: $baseline;
-	margin-bottom: $baseline;
+    margin-bottom: $baseline;
+    font-size: $p;
 }
 
 h1,

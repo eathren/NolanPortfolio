@@ -13,8 +13,8 @@ const IndexPage = () => (
         <img className="image-home-tree" src={Tree} />
         <div className="image-wrapper-home-card">
           <div className=".image-wrapper-home-card-text">
-            <p>Nolan Braman</p>
-            <p> Software Developer</p>
+            <h1>Nolan Braman</h1>
+            <h1> Software Developer</h1>
             <Link className="page-home-link" to="/about">
               About
             </Link>
