@@ -1,28 +1,35 @@
 @import 'colors';
+@import 'font-size';
 
-html{
+html {
   font-family: Arial, Helvetica, sans-serif;
 }
+
 
 // Home page
 
 .page-home{
    height: 100vh;
-   width: 100%;
    position: relative;          
    background-color: $c-3;  
+   overflow-y: hidden;
 }
 
 .image-wrapper-home {
-  margin: auto;
-  height: 100%;
-  width: 90%;
+  width:100%;
+  max-width: 1000px;
   height: auto;
+  margin: auto;
   position: absolute;  
+  
   left: 50%;                       
   top: 50%;                         
   transform: translate(-50%, -50%); 
   opacity: .8;
+}
+
+@media only screen and (min-width: 900px) {
+  .image-wrapper-home{  padding-top: 60px;}
 }
 
 .image-wrapper-home-card{
@@ -35,10 +42,15 @@ html{
   left: 50%;                       
   top: 50%;                         
   transform: translate(-50%, -50%); 
-  padding: 20px;
+  padding: 10px;
   text-align: center;
   border-radius: 9px;
   opacity: .92;
+   .page-home-link{
+    margin: 10px;
+    padding: 10px;
+    color: $c-0;
+  }
 }
 
 .image-wrapper-home-card-text{
@@ -49,10 +61,11 @@ html{
   height: auto;
   position: absolute;  
   left: 50%;                       
-  top: 50%;                         
+  top: 50%;           
+  padding: 10px;
   transform: translate(-50%, -50%); 
-  padding: 20px;
   text-align: center;
   border-radius: 9px;
   opacity: 1 !important;
+ 
 }
