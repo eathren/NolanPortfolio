@@ -8,7 +8,7 @@ import Tree from "../images/tree.svg"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <div className="page-home">
+    <div className="page page-home">
       <div className="image-wrapper-home">
         <img className="image-home-tree" src={Tree} />
         <div className="image-wrapper-home-card">

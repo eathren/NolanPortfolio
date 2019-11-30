@@ -1,8 +1,16 @@
 @import 'colors';
 @import 'font-size';
+@import 'flex';
+//variables
+$page-padding: 50px;
 
 html {
   font-family: Arial, Helvetica, sans-serif;
+
+}
+.page{
+  padding: $page-padding;
+  background-color: $c-3;  
 }
 
 
@@ -11,8 +19,7 @@ html {
 .page-home{
    height: 100vh;
    position: relative;          
-   background-color: $c-3;  
-   overflow-y: hidden;
+   overflow: hidden;
 }
 
 .image-wrapper-home {
@@ -60,4 +67,11 @@ html {
   border-radius: 9px;
   opacity: 1;
  
+}
+
+// about page
+.page-about{
+  height: 100vh;
+  position: relative;          
+  overflow: hidden;
 }
