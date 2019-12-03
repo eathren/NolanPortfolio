@@ -2,7 +2,7 @@ $baseline: 1.5rem;
 
 $minScreen: 20rem;
 $maxScreen: 50rem;
-$minFont: .8rem;
+$minFont: .9rem;
 $maxFont: 2rem;
 
 $h1: 2rem;
@@ -12,9 +12,7 @@ $h4: 1rem;
 $h5: .875rem;
 $p: .9rem;
 
-.header-shadow{
-	text-shadow: 1px 2px 3px rgba(0,0,0,0.35);
-}
+
 
 
 @mixin fluid-type($properties, $min-vw, $max-vw, $min-value, $max-value) {

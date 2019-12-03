@@ -22,7 +22,8 @@ const IndexPage = () => (
           <div className="card">
             <p>
               I'm a clever individual who enjoys writing functional, non-clever
-              code. (So perhaps I'm not that clever?)
+              code. When I'm not working, I'm either writing, building hobby
+              projects, or learning a new skill.
             </p>
           </div>
         </div>
