@@ -1,8 +1,8 @@
+
 .row {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
+  flex-flow: row wrap;
+  justify-content: flex-start;
 }
 
 .column {
@@ -10,4 +10,6 @@
   flex-direction: column;
   flex-basis: 100%;
   flex: 1;
+
 }
+

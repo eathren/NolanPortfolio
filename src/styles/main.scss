@@ -1,6 +1,7 @@
 @import 'colors';
 @import 'font-size';
 @import 'flex';
+@import 'containers';
 //variables
 $page-padding: 50px;
 
@@ -11,67 +12,18 @@ html {
 .page{
   padding: $page-padding;
   background-color: $c-3;  
+  min-height: 100vh;
 }
 
-
-// Home page
-
-.page-home{
-   height: 100vh;
-   position: relative;          
-   overflow: hidden;
-}
-
-.image-wrapper-home {
-  width:100%;
-  max-width: 1000px;
-  height: auto;
-  margin: auto;
-  position: absolute;  
-  
-  left: 50%;                       
-  top: 50%;                         
-  transform: translate(-50%, -50%); 
-  opacity: .8;
-}
-
-@media only screen and (min-width: 900px) {
-  .image-wrapper-home{  padding-top: 60px;}
-}
-
-.image-wrapper-home-card{
-  color: $c-4;
-  background-color:$c-2;
-  margin: auto;
-  min-width: 70%;
-  height: auto;
-  position: absolute;  
-  left: 50%;                       
-  top: 50%;                         
-  transform: translate(-50%, -50%); 
-  padding: 10px;
-  text-align: center;
-  border-radius: 9px;
-  opacity: .92;
-   .page-home-link{
-    margin: 10px;
-    padding: 10px;
-    color: $c-0;
-  }
-}
-
-.image-wrapper-home-card-text{
-  color: $c-4;
-  background-color:$c-2;
-  padding: 10px;
-  border-radius: 9px;
-  opacity: 1;
- 
-}
-
-// about page
-.page-about{
+.flex-center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
-  position: relative;          
-  overflow: hidden;
+}
+
+// Page - Home
+.image-wrapper{
+  width: 400px;
 }
