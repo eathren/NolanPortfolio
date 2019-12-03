@@ -26,10 +26,9 @@ const IndexPage = () => (
               <br />
               <br /> In any case, when I'm not working, I'm either writing,
               building hobby projects, learning a new skill, on the slopes, or
-              spending time with my wife Nancy and our two cats, Albi and
-              Casper, in our home in Concord, NH.
+              spending time with my wife Nancy and our two cats in Concord, NH.
               <br /> <br />
-              You can find more about me at my{" "}
+              You can find more about me at my
               <a href="https://www.linkedin.com/in/nolanbraman/">
                 {" "}
                 LinkedIn
@@ -46,10 +45,10 @@ const IndexPage = () => (
               I'm a <b>software developer</b>. What this sounds like is that I'm
               a wizard with a keyboard, building apps with one hand and parting
               the binary red sea with the other... Neat, huh?
-              <br /> <br /> What this <b>really</b> means is that I am a
-              carpenter of the IT world, but instead of buildings and homes, I
-              build or maintain webapps for large and small businesses so they
-              don't fall over or catch on fire with everyone inside...
+              <br /> <br /> What this really means is that I am a carpenter of
+              the IT world, but instead of buildings and homes, I build or
+              maintain webapps for large and small businesses so they don't fall
+              over or catch on fire with everyone inside...
               <i> This is likely why I dislike clever code.</i>
             </p>
           </div>
@@ -73,7 +72,8 @@ const IndexPage = () => (
               <br />
               <br />
               <b> Visuals & UI Frameworks:</b>
-              SaSS, CSS, Material-UI, Semantic-UI
+              <br />
+              Sass, CSS, Material-UI, Semantic-UI
               <br />
               <br />
               <b> Serverless:</b>
@@ -94,12 +94,17 @@ const IndexPage = () => (
       <h1 className="text-light header-shadow">My Work</h1>
       <div className="gallery">
         <div className="row">
-          <column>
-            <div className="gallery-item double-column">t</div>
-          </column>
-          <column>
-            <div className="gallery-item double-column">t2</div>
-          </column>
+          <div className="gallery-item double-column">
+            <div className="gallery-header">test</div>
+          </div>
+
+          <div className="gallery-item double-column">
+            <div className="gallery-image"></div>
+            <div className="gallery-header">test</div>
+          </div>
+          <div className="gallery-item double-column">
+            <div className="gallery-header">test</div>
+          </div>
         </div>
       </div>
     </div>

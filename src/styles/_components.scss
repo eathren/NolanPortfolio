@@ -23,10 +23,25 @@
 }
 
 .gallery {
-}
+  width: 100%;
+  margin: auto;
+  justify-content: center;
 
-.gallery-item {
-  width: 600px;
-  background-color: white;
-  height: 600px;
+  .gallery-item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    background-color: $c-2;
+    height: 400px;
+    display: flex;
+    .gallery-image {
+    }
+    .gallery-header {
+      align-self: flex-end;
+      color: $c-0;
+      text-align: center;
+    }
+  }
 }
