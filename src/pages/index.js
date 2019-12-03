@@ -49,8 +49,7 @@ const IndexPage = () => (
               <br /> <br /> What this <b>really</b> means is that I am a
               carpenter of the IT world, but instead of buildings and homes, I
               build or maintain webapps for large and small businesses so they
-              don't fall over with everyone inside or catch on fire with
-              everyone inside...
+              don't fall over or catch on fire with everyone inside...
               <i> This is likely why I dislike clever code.</i>
             </p>
           </div>
