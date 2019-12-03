@@ -1,8 +1,12 @@
+.center-text{
+  text-align: center;
+}
 
 .row {
   display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 .column {
@@ -10,6 +14,21 @@
   flex-direction: column;
   flex-basis: 100%;
   flex: 1;
-
 }
 
+.double-column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  margin: 10px;
+}
+
+@media screen and (min-width: 1000px) {
+  .column {
+    flex: 1
+  }
+
+  .double-column {
+    flex: 2
+  }
+}

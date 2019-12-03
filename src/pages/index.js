@@ -12,11 +12,36 @@ const IndexPage = () => (
       <div className="image-wrapper">
         <img src={Tree} />
       </div>
-      <h1> Nolan Braman</h1>
-      <h1> Softare Developer</h1>
+      <h1 className="header-shadow"> Nolan Braman</h1>
+      <h1 className="header-shadow"> Softare Developer</h1>
     </div>
-    <div className="page page-2" id="#about">
-      <p> </p>
+    <div className="page page-2 flex-center" id="#about">
+      <div className="row center-text">
+        <div className="double-column">
+          <h2 className="text-light">Who I am:</h2>
+          <div className="card">
+            <p>
+              I'm a clever individual who enjoys writing functional, non-clever
+              code. (So perhaps I'm not that clever?)
+            </p>
+          </div>
+        </div>
+        <div className="double-column">
+          <h2 className="text-light">What I Do:</h2>
+          <div className="card">
+            <p>
+              I'm a carpenter of the IT world, but instead of buildings and
+              homes, I build webapps for large and small businesses.
+            </p>
+          </div>
+        </div>
+        <div className="double-column">
+          <h2 className="text-light">How I Do It:</h2>
+          <div className="card">
+            JavaScript-React-Gatsby & Python-Django-DRF
+          </div>
+        </div>
+      </div>
     </div>
   </Layout>
 )
