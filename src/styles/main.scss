@@ -7,11 +7,12 @@ $page-padding: 50px;
 
 html {
   font-family: Arial, Helvetica, sans-serif;
+  color: $c-1;
 
 }
 .page{
-  padding: $page-padding;
-  background-color: $c-3;  
+  // padding: $page-padding;
+  // background-color: $c-3;  
   min-height: 100vh;
 }
 
@@ -20,10 +21,20 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 
 // Page - Home
 .image-wrapper{
-  width: 400px;
+  width: 330px;
+}
+
+.page-1{
+ background-color: $c-0;
+ height: 80vh;
+
+}
+
+.page-2{
+  background-color: $c-2;
+  height: 80vh;
 }
