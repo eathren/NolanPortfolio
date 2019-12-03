@@ -27,7 +27,7 @@ const IndexPage = () => (
               <br /> In any case, when I'm not working, I'm either writing,
               building hobby projects, learning a new skill, on the slopes, or
               spending time with my wife Nancy and our two cats, Albi and
-              Casper, currently living in lovely Concord, NH.
+              Casper, living in our home in Concord, NH.
               <br /> <br />
               You can find more about me at my{" "}
               <a href="https://www.linkedin.com/in/nolanbraman/">
