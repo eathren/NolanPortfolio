@@ -8,14 +8,16 @@ import Tree from "../images/tree.svg"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <div className="page-1 flex-center">
+    <div className="page page-1 flex-center" id="#landing-page">
       <div className="image-wrapper">
         <img src={Tree} />
       </div>
       <h1> Nolan Braman</h1>
       <h1> Softare Developer</h1>
     </div>
-    <div className="page-2"></div>
+    <div className="page page-2" id="#about">
+      <p> </p>
+    </div>
   </Layout>
 )
 

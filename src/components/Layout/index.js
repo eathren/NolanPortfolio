@@ -28,7 +28,7 @@ const Layout = ({ children }) => {
     <React.StrictMode>
       {/* <Header siteTitle={data.site.siteMetadata.title} /> */}
       <div>
-        <main className="page">{children}</main>
+        <main>{children}</main>
         <footer>
           {/* © {new Date().getFullYear()}, Built with
           {` `}
