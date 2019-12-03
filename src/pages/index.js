@@ -5,6 +5,9 @@ import Layout from "../components/Layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 import Tree from "../images/tree.svg"
+// components
+import Gallery from "../components/Gallery"
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
@@ -91,22 +94,7 @@ const IndexPage = () => (
       </div>
     </div>
     <div className="page page-3 flex-center">
-      <h1 className="text-light header-shadow">My Work</h1>
-      <div className="gallery">
-        <div className="row">
-          <div className="gallery-item double-column">
-            <div className="gallery-header">test</div>
-          </div>
-
-          <div className="gallery-item double-column">
-            <div className="gallery-image"></div>
-            <div className="gallery-header">test</div>
-          </div>
-          <div className="gallery-item double-column">
-            <div className="gallery-header">test</div>
-          </div>
-        </div>
-      </div>
+      <Gallery />
     </div>
   </Layout>
 )
