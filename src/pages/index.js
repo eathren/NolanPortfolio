@@ -27,7 +27,7 @@ const IndexPage = () => (
               <br /> In any case, when I'm not working, I'm either writing,
               building hobby projects, learning a new skill, on the slopes, or
               spending time with my wife Nancy and our two cats, Albi and
-              Casper, living in our home in Concord, NH.
+              Casper, in our home in Concord, NH.
               <br /> <br />
               You can find more about me at my{" "}
               <a href="https://www.linkedin.com/in/nolanbraman/">
@@ -44,8 +44,8 @@ const IndexPage = () => (
           <div className="card border-primary text-left">
             <p>
               I'm a <b>software developer</b>. What this sounds like is that I'm
-              a wizard with a keyboard, building apps and parting the binary red
-              sea... Neat, huh?
+              a wizard with a keyboard, building apps with one hand and parting
+              the binary red sea with the other... Neat, huh?
               <br /> <br /> What this <b>really</b> means is that I am a
               carpenter of the IT world, but instead of buildings and homes, I
               build or maintain webapps for large and small businesses so they
@@ -87,6 +87,19 @@ const IndexPage = () => (
               Commandline
             </p>
           </div>
+        </div>
+      </div>
+    </div>
+    <div className="page page-3 flex-center">
+      <h1 className="text-light header-shadow">My Work</h1>
+      <div className="gallery">
+        <div className="row">
+          <column>
+            <div className="gallery-item double-column">t</div>
+          </column>
+          <column>
+            <div className="gallery-item double-column">t2</div>
+          </column>
         </div>
       </div>
     </div>

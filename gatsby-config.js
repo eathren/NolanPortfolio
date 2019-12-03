@@ -22,8 +22,8 @@ module.exports = {
         name: `Nolan Braman || Software Developer`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#a0ccff`,
-        theme_color: `#a0ccff`,
+        background_color: `#23568f`,
+        theme_color: `#23568f`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
