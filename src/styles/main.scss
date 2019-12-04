@@ -5,6 +5,7 @@
 @import "svg";
 @import "components";
 @import "text";
+@import "prism";
 //variables
 $page-padding: 50px;
 
@@ -57,4 +58,10 @@ body {
 .page-3 {
   background-color: $c-1;
   min-height: 100vh;
+}
+
+.page-4 {
+  padding-top: 100px;
+  background-color: $c-0;
+  min-height: 90vh;
 }

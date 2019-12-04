@@ -7,6 +7,7 @@ import SEO from "../components/seo"
 import Tree from "../images/tree.svg"
 // components
 import Gallery from "../components/Gallery"
+import BlogCard from "../components/BlogCard"
 
 const IndexPage = () => (
   <Layout>
@@ -95,6 +96,10 @@ const IndexPage = () => (
     </div>
     <div className="page page-3 flex-center">
       <Gallery />
+    </div>
+    <div className="page page-4 flex-center">
+      <h1> Blog</h1>
+      <BlogCard />
     </div>
   </Layout>
 )
