@@ -15,7 +15,7 @@ const items = [
   },
   {
     title: "IARS360 ",
-    client: "SelfStudy",
+    client: "SelfStudyPlus",
     description:
       " A subscription  CME website, IARS360 is an in-progress project for an updated experience for Continued Medical Education for healthcare professionals. ",
     // img: [iars2],

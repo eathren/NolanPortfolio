@@ -11,7 +11,7 @@ import Gallery from "../components/Gallery"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <div className="page page-1 flex-center" id="#landing-page">
+    <div className="page page-1 flex-center text-center" id="#landing-page">
       <div className="image-wrapper">
         <img src={Tree} />
       </div>
