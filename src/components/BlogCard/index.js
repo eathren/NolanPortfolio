@@ -34,28 +34,20 @@ export default () => (
     `}
     render={data => (
       <segment title="Blog Bar">
-        <div style={{}} className="card">
-          <Link to="/blog" className="normalize">
-            <h3 className="center header-border"> Latest Posts</h3>
-          </Link>
-          {/* <hr
-              style={{
-                textAlign: "center",
-                margin: "auto",
-                width: "10%",
-                marginTop: "0",
-                marginBottom: "5vh",
-              }}
-            ></hr> */}
+        <div style={{}} className="blog-card ">
+          {/* <Link to="/blog">
+            <h3 className="blog-card-title flex-center"> Latest Posts</h3>
+            <hr />
+          </Link> */}
 
           {data.allMarkdownRemark.edges.map(({ node }) => {
             const title = node.frontmatter.title || node.fields.slug
             return (
               <div key={node.fields.slug}>
-                <Link className="normalize" to={node.fields.slug}>
-                  <h2>{title}</h2>
+                <Link className="" to={node.fields.slug}>
+                  <h2 className="blog-card-title">{title}</h2>
                 </Link>
-                <small style={{ color: "grey" }}>
+                <small className="blog-card-date">
                   {node.frontmatter.date} - {node.timeToRead} minutes
                 </small>
                 <p
@@ -63,12 +55,10 @@ export default () => (
                   dangerouslySetInnerHTML={{
                     __html: node.frontmatter.description || node.excerpt,
                   }}
-                />{" "}
+                />
                 <br />
-                <Link className="normalize" to={node.fields.slug}>
-                  {/* <Button size="small" variant="outlined" color="secondary">
-                    Read More
-                  </Button> */}
+                <Link className="" to={node.fields.slug}>
+                  <button className="button-blog">Read More</button>
                 </Link>
                 <br />
                 <br />

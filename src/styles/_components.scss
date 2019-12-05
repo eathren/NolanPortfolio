@@ -14,13 +14,12 @@
   border-radius: 8px;
 }
 
-.card:hover {
-  transform: translate(0px, -10px);
-  // margin-top: -5px;
-  // margin-bottom: 5px;
-  -webkit-filter: drop-shadow(5x 5x 3px rgba(0, 0, 0, 0.7));
-  filter: drop-shadow(5px 5px 3px rgba(0, 0, 0, 0.7));
-}
+// .card:hover {
+//   transform: translate(0px, -10px);
+
+//   -webkit-filter: drop-shadow(5x 5x 3px rgba(0, 0, 0, 0.7));
+//   filter: drop-shadow(5px 5px 3px rgba(0, 0, 0, 0.7));
+// }
 
 .gallery {
   width: 100%;
@@ -102,5 +101,38 @@
     transition: 0.3s ease;
     opacity: 1;
     color: $c-0;
+  }
+}
+
+.blog-card {
+  background-color: $c-2;
+  color: white;
+  padding: 40px;
+  border: 4px solid $c-5;
+  border-radius: 8px;
+
+  .blog-card-title {
+    color: $c-0;
+    transition: 300ms;
+    text-decoration: none;
+  }
+  .blog-card-title:hover {
+    transition: 300ms;
+    text-decoration: underline;
+  }
+  .blog-card-date {
+    color: lightgrey;
+  }
+  .button-blog {
+    border: 1px solid $c-0;
+    background-color: transparent;
+    color: white;
+    border-radius: 3px;
+    padding: 4px;
+    transition: all 0.1s ease-in-out;
+  }
+  .button-blog:hover {
+    background-color: #eeeeee;
+    color: $c-2;
   }
 }

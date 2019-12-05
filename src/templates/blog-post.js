@@ -19,7 +19,7 @@ class BlogPostTemplate extends React.Component {
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
-        <div className="blog-page">
+        <div className="page-blog">
           <div style={{ padding: "30px" }}>
             <>
               <h2 style={{ marginBottom: "15px" }}>{post.frontmatter.title}</h2>

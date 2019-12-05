@@ -98,7 +98,9 @@ const IndexPage = () => (
       <Gallery />
     </div>
     <div className="page page-4 flex-center">
-      <h1> Blog</h1>
+      <Link to="/blog">
+        <h1> Blog </h1>
+      </Link>
       <BlogCard />
     </div>
   </Layout>
