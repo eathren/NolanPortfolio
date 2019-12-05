@@ -8,15 +8,19 @@ import Tree from "../images/tree.svg"
 // components
 import Gallery from "../components/Gallery"
 import BlogCard from "../components/BlogCard"
+import ContactBar from "../components/ContactBar"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <div className="page page-1 flex-center text-center" id="#landing-page">
       <div className="image-wrapper">
-        <img src={Tree} />
+        <img className="tree" src={Tree} />
       </div>
-      <h1 className="header-shadow"> Nolan Braman</h1>
+      <h1 className="header-shadow" style={{ marginTop: "30px" }}>
+        {" "}
+        Nolan Braman
+      </h1>
       <h1 className="header-shadow"> Software Developer</h1>
     </div>
     <div className="page page-2 flex-center" id="#about">
@@ -102,6 +106,10 @@ const IndexPage = () => (
         <h1> Blog </h1>
       </Link>
       <BlogCard />
+    </div>
+
+    <div className="page page-5 flex-center">
+      <ContactBar />
     </div>
   </Layout>
 )

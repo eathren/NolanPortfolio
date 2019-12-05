@@ -19,7 +19,7 @@ module.exports = {
         name: `blog`,
       },
     },
-
+    `gatsby-plugin-material-ui`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
