@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import Button from "@material-ui/core/Button"
 import Card from "@material-ui/core/Card"
 import Container from "@material-ui/core/Container"
-import Layout from "../components/layout"
+import Layout from "../components/Layout"
 import SEO from "../components/seo"
 
 const NotFoundPage = () => (
