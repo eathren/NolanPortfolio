@@ -23,7 +23,7 @@ const IndexPage = () => (
       </h1>
       <h1 className="header-shadow"> Software Developer</h1>
     </div>
-    <div className="page page-2 flex-center" id="#about">
+    {/* <div className="page page-2 flex-center" id="#about">
       <div className="container">
         <Link to="/about">
           <h1 className="text-center text-light text-underline"> About </h1>
@@ -103,7 +103,7 @@ const IndexPage = () => (
           </div>
         </div>
       </div>
-    </div>
+    </div> */}
     <div className="page page-3 flex-center">
       <Gallery />
     </div>

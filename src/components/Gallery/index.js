@@ -51,7 +51,7 @@ const items = [
     img: "",
     webstack:
       "React, Django Rest Framework, Netlify, Heroku, REST API, and ECMAScript6",
-    link: "",
+    link: "https://www.selards.com",
   },
   //   { title: "", client: "", description: "", img: "", webstack: "", link: "" },
 ]
