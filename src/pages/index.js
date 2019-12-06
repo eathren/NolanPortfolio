@@ -25,6 +25,9 @@ const IndexPage = () => (
     </div>
     <div className="page page-2 flex-center" id="#about">
       <div className="container">
+        <Link to="/about">
+          <h1 className="text-center text-light text-underline"> About </h1>
+        </Link>
         <div className="row center-text">
           <div className="double-column">
             <h2 className="text-light header-shadow">Who I am:</h2>

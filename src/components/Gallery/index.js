@@ -1,18 +1,9 @@
 import React from "react"
-
-import GalleryCard from "../GalleryCard"
+import { Link } from "gatsby"
+import ButtonGroup from "@material-ui/core/ButtonGroup"
+import Button from "@material-ui/core/Button"
 
 const items = [
-  {
-    title: "Medical Keywords Study WebApp",
-    client: "Open Anesthetics",
-    description:
-      "Built with Gatsby and GraphQL, the new Keywords app contains Open Anesthetic's massive list of medical study keywords for their Continuing Medical Education(CME) content. \n \nWith over 6000 full page entries, sortable by category, year, and difficulty, their new webapp is clean-cut. And with Algolia search implemented, it couldn't be easier for their users to find whatever they are looking for.  ",
-    // img: [keywords3, keywords4],
-    webstack:
-      "Webstack: Gatsby.js, React.js, GraphQL, MongoDB/MongoStitch, Node.js,  Netlify, Material-UI, and Algolia.",
-    link: "https://keywords.selfstudy.app/",
-  },
   {
     title: "IARS360 ",
     client: "SelfStudyPlus",
@@ -25,7 +16,7 @@ const items = [
     link: "",
   },
   {
-    title: "Contractor Website",
+    title: "General Contractor Website",
     client: " American Dream \n Construction, LLC",
     description:
       "One of the largest employers in Alaska, ADC wanted a fresh face for their construction and renovation company, in a static Gatsby format to make updating job postings and recent work easy to navigate and update.",
@@ -43,6 +34,16 @@ const items = [
     link: "",
   },
   {
+    title: "Medical Keywords Study WebApp",
+    client: "Open Anesthetics",
+    description:
+      "Built with Gatsby and GraphQL, the new Keywords app contains Open Anesthetic's massive list of medical study keywords for their Continuing Medical Education(CME) content, with over 6000 full page entries, sortable by category, year, and difficulty,   ",
+    // img: [keywords3, keywords4],
+    webstack:
+      "Webstack: Gatsby.js, React.js, GraphQL, MongoDB/MongoStitch, Node.js,  Netlify, Material-UI, and Algolia.",
+    link: "https://keywords.selfstudy.app/",
+  },
+  {
     title: "Selards",
     client: "",
     description:
@@ -58,13 +59,16 @@ const items = [
 const Gallery = props => {
   return (
     <>
-      <h1 className=" text-light header-shadow">My Work</h1>
+      <Link to="/portolfio">
+        <h1 className=" text-light header-shadow text-underline">My Work</h1>
+      </Link>
       <div className="gallery">
         <div className="row">
           {items.map(item => (
             <div className="gallery-item double-column">
               <div className="gallery-image"></div>
               <div className="gallery-header">
+                {item.img}
                 <h1> {item.title}</h1>
               </div>
               <div className="gallery-header-sub">{item.client}</div>
@@ -78,6 +82,19 @@ const Gallery = props => {
                   <> </>
                 )}
                 {item.webstack}
+                <div className="gallery-link">
+                  {item.link ? (
+                    <a href={item.link} className="normalize">
+                      <button className="button-gallery">VIEW SITE</button>
+                    </a>
+                  ) : (
+                    <div style={{ color: "grey" }}>
+                      {" "}
+                      This site is behind an auth layer and is not available for
+                      viewing
+                    </div>
+                  )}
+                </div>
               </div>
             </div>
           ))}

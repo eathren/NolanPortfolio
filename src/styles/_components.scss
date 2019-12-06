@@ -40,8 +40,6 @@
     height: 400px;
     padding: 35px;
 
-    .gallery-image {
-    }
     .gallery-header {
       text-align: right;
       color: $c-0;
@@ -74,6 +72,23 @@
       opacity: 0;
       padding: 20px;
     }
+    .gallery-link {
+      opacity: 0;
+      padding-top: 20px;
+    }
+    .button-gallery {
+      border: 1px solid $c-0;
+      background-color: transparent;
+      color: white;
+      border-radius: 3px;
+      padding: 4px;
+      transition: all 0.1s ease-in-out;
+    }
+    .button-gallery:hover {
+      background-color: #eeeeee;
+      color: $c-1;
+      transform: scale(1.1);
+    }
   }
 }
 
@@ -101,6 +116,10 @@
     transition: 0.3s ease;
     opacity: 1;
     color: $c-0;
+  }
+  .gallery-link {
+    transition: 0.3s ease;
+    opacity: 1;
   }
 }
 
