@@ -14,14 +14,17 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <div className="page page-1 flex-center text-center" id="#landing-page">
-      <div className="image-wrapper">
+      {/* <div className="image-wrapper">
         <img className="tree" src={Tree} />
-      </div>
-      <h1 className="header-shadow" style={{ marginTop: "30px" }}>
+      </div> */}
+      <h1 className="header-shadow">
         {" "}
-        Nolan Braman
+        <u>Nolan Braman</u>
       </h1>
-      <h1 className="header-shadow"> Software Developer</h1>
+      <h2 className="header-shadow">
+        {" "}
+        Building Better Software Through Itterative Design
+      </h2>
     </div>
     {/* <div className="page page-2 flex-center" id="#about">
       <div className="container">
