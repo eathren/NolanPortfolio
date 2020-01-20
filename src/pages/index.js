@@ -23,7 +23,7 @@ const IndexPage = () => (
       </h1>
       <h2 className="header-shadow">
         
-        Building Better Software Through Itterative Design
+        Building Better Software Through Iterative Design
       </h2>
     </div>
     {/* <div className="page page-2 flex-center" id="#about">
