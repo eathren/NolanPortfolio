@@ -44,14 +44,14 @@ const items = [
     link: "https://keywords.selfstudy.app/",
   },
   {
-    title: "Selards",
+    title: "Solists",
     client: "",
     description:
       "An online jobboard for remote development & design professionals of all stripes and colors.",
     img: "",
     webstack:
       "React, Django Rest Framework, Netlify, Heroku, REST API, and ECMAScript6",
-    link: "https://www.selards.com",
+    link: "https://www.solists.com",
   },
   //   { title: "", client: "", description: "", img: "", webstack: "", link: "" },
 ]
