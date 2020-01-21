@@ -9,14 +9,16 @@ import Tree from "../images/tree.svg"
 import Gallery from "../components/Gallery"
 import BlogCard from "../components/BlogCard"
 import ContactBar from "../components/ContactBar"
+import Particles from "../components/Particles"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <div className="page page-1 flex-center text-center" id="#landing-page">
-      <div className="image-wrapper">
+      {/* <div className="image-wrapper">
         <img className="tree" src={Tree} />
-      </div>
+      </div> */}
+      <Particles/>
       <h1 className="header-shadow" style={{marginTop:'10px'}}>
        
        Nolan Braman
