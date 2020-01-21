@@ -6,6 +6,7 @@
 @import "components";
 @import "text";
 @import "prism";
+@import "particles";
 
 //variables
 $page-padding: 50px;
@@ -93,3 +94,5 @@ body {
   background-color: $c-1;
   min-height: 100vh;
 }
+
+

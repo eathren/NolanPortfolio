@@ -9,20 +9,20 @@ const theme = createMuiTheme(
   /* src/ui/theme/theme.json */
 
   {
-    breakpoints: {
-      keys: ["xs", "sm", "md", "lg", "xl"],
-      values: { xs: 0, lg: 1280, sm: 600, xl: 1920, md: 960 },
+    "breakpoints": {
+      "keys": ["xs", "sm", "md", "lg", "xl"],
+      "values": { "xs": 0, "lg": 1280, "sm": 600, "xl": 1920, "md": 960 }
     },
-    mixins: {
-      toolbar: {
-        minHeight: 56,
+    "mixins": {
+      "toolbar": {
+        "minHeight": 56,
         "@media (min-width:0px) and (orientation: landscape)": {
-          minHeight: 48,
+          "minHeight": 48
         },
-        "@media (min-width:600px)": { minHeight: 64 },
-      },
+        "@media (min-width:600px)": { "minHeight": 64 }
+      }
     },
-    shadows: [
+    "shadows": [
       "none",
       "0px 1px 3px 0px rgba(0, 0, 0, 0.2),0px 1px 1px 0px rgba(0, 0, 0, 0.14),0px 2px 1px -1px rgba(0, 0, 0, 0.12)",
       "0px 1px 5px 0px rgba(0, 0, 0, 0.2),0px 2px 2px 0px rgba(0, 0, 0, 0.14),0px 3px 1px -2px rgba(0, 0, 0, 0.12)",
@@ -47,132 +47,132 @@ const theme = createMuiTheme(
       "0px 10px 13px -6px rgba(0, 0, 0, 0.2),0px 21px 33px 3px rgba(0, 0, 0, 0.14),0px 8px 40px 7px rgba(0, 0, 0, 0.12)",
       "0px 10px 14px -6px rgba(0, 0, 0, 0.2),0px 22px 35px 3px rgba(0, 0, 0, 0.14),0px 8px 42px 7px rgba(0, 0, 0, 0.12)",
       "0px 11px 14px -7px rgba(0, 0, 0, 0.2),0px 23px 36px 3px rgba(0, 0, 0, 0.14),0px 9px 44px 8px rgba(0, 0, 0, 0.12)",
-      "0px 11px 15px -7px rgba(0, 0, 0, 0.2),0px 24px 38px 3px rgba(0, 0, 0, 0.14),0px 9px 46px 8px rgba(0, 0, 0, 0.12)",
+      "0px 11px 15px -7px rgba(0, 0, 0, 0.2),0px 24px 38px 3px rgba(0, 0, 0, 0.14),0px 9px 46px 8px rgba(0, 0, 0, 0.12)"
     ],
-    direction: "ltr",
-    overrides: {},
-    transitions: {
-      easing: {
-        easeInOut: "cubic-bezier(0.4, 0, 0.2, 1)",
-        easeOut: "cubic-bezier(0.0, 0, 0.2, 1)",
-        easeIn: "cubic-bezier(0.4, 0, 1, 1)",
-        sharp: "cubic-bezier(0.4, 0, 0.6, 1)",
+    "direction": "ltr",
+    "overrides": {},
+    "transitions": {
+      "easing": {
+        "easeInOut": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "easeOut": "cubic-bezier(0.0, 0, 0.2, 1)",
+        "easeIn": "cubic-bezier(0.4, 0, 1, 1)",
+        "sharp": "cubic-bezier(0.4, 0, 0.6, 1)"
       },
-      duration: {
-        standard: 300,
-        short: 250,
-        enteringScreen: 225,
-        shorter: 200,
-        leavingScreen: 195,
-        shortest: 150,
-        complex: 375,
-      },
+      "duration": {
+        "standard": 300,
+        "short": 250,
+        "enteringScreen": 225,
+        "shorter": 200,
+        "leavingScreen": 195,
+        "shortest": 150,
+        "complex": 375
+      }
     },
-    typography: {
-      headline: {
-        color: "rgba(0, 0, 0, 0.87)",
-        fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
-        lineHeight: "1.35417em",
-        fontSize: "1.5rem",
-        fontWeight: 400,
+    "typography": {
+      "headline": {
+        "color": "rgba(0, 0, 0, 0.87)",
+        "fontFamily": "\"Roboto\", \"Helvetica\", \"Arial\", sans-serif",
+        "lineHeight": "1.35417em",
+        "fontSize": "1.5rem",
+        "fontWeight": 400
       },
-      display2: {
-        marginLeft: "-.02em",
-        color: "rgba(0, 0, 0, 0.54)",
-        fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
-        lineHeight: "1.13333em",
-        fontSize: "2.8125rem",
-        fontWeight: 400,
+      "display2": {
+        "marginLeft": "-.02em",
+        "color": "rgba(0, 0, 0, 0.54)",
+        "fontFamily": "\"Roboto\", \"Helvetica\", \"Arial\", sans-serif",
+        "lineHeight": "1.13333em",
+        "fontSize": "2.8125rem",
+        "fontWeight": 400
       },
-      fontWeightLight: 300,
-      display3: {
-        marginLeft: "-.02em",
-        color: "rgba(0, 0, 0, 0.54)",
-        fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
-        letterSpacing: "-.02em",
-        lineHeight: "1.30357em",
-        fontSize: "3.5rem",
-        fontWeight: 400,
+      "fontWeightLight": 300,
+      "display3": {
+        "marginLeft": "-.02em",
+        "color": "rgba(0, 0, 0, 0.54)",
+        "fontFamily": "\"Roboto\", \"Helvetica\", \"Arial\", sans-serif",
+        "letterSpacing": "-.02em",
+        "lineHeight": "1.30357em",
+        "fontSize": "3.5rem",
+        "fontWeight": 400
       },
-      display4: {
-        marginLeft: "-.04em",
-        color: "rgba(0, 0, 0, 0.54)",
-        fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
-        letterSpacing: "-.04em",
-        lineHeight: "1.14286em",
-        fontSize: "7rem",
-        fontWeight: 300,
+      "display4": {
+        "marginLeft": "-.04em",
+        "color": "rgba(0, 0, 0, 0.54)",
+        "fontFamily": "\"Roboto\", \"Helvetica\", \"Arial\", sans-serif",
+        "letterSpacing": "-.04em",
+        "lineHeight": "1.14286em",
+        "fontSize": "7rem",
+        "fontWeight": 300
       },
-      fontWeightRegular: 400,
-      display1: {
-        color: "rgba(0, 0, 0, 0.54)",
-        fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
-        lineHeight: "1.20588em",
-        fontSize: "2.125rem",
-        fontWeight: 400,
+      "fontWeightRegular": 400,
+      "display1": {
+        "color": "rgba(0, 0, 0, 0.54)",
+        "fontFamily": "\"Roboto\", \"Helvetica\", \"Arial\", sans-serif",
+        "lineHeight": "1.20588em",
+        "fontSize": "2.125rem",
+        "fontWeight": 400
       },
-      button: {
-        textTransform: "uppercase",
-        color: "rgba(0, 0, 0, 0.87)",
-        fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
-        fontSize: "0.875rem",
-        fontWeight: 500,
+      "button": {
+        "textTransform": "uppercase",
+        "color": "rgba(0, 0, 0, 0.87)",
+        "fontFamily": "\"Roboto\", \"Helvetica\", \"Arial\", sans-serif",
+        "fontSize": "0.875rem",
+        "fontWeight": 500
       },
-      fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
-      body2: {
-        color: "rgba(0, 0, 0, 0.87)",
-        fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
-        lineHeight: "1.71429em",
-        fontSize: "0.875rem",
-        fontWeight: 500,
+      "fontFamily": "\"Roboto\", \"Helvetica\", \"Arial\", sans-serif",
+      "body2": {
+        "color": "rgba(0, 0, 0, 0.87)",
+        "fontFamily": "\"Roboto\", \"Helvetica\", \"Arial\", sans-serif",
+        "lineHeight": "1.71429em",
+        "fontSize": "0.875rem",
+        "fontWeight": 500
       },
-      caption: {
-        color: "rgba(0, 0, 0, 0.54)",
-        fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
-        lineHeight: "1.375em",
-        fontSize: "0.75rem",
-        fontWeight: 400,
+      "caption": {
+        "color": "rgba(0, 0, 0, 0.54)",
+        "fontFamily": "\"Roboto\", \"Helvetica\", \"Arial\", sans-serif",
+        "lineHeight": "1.375em",
+        "fontSize": "0.75rem",
+        "fontWeight": 400
       },
-      fontSize: 14,
-      fontWeightMedium: 500,
-      title: {
-        color: "rgba(0, 0, 0, 0.87)",
-        fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
-        lineHeight: "1.16667em",
-        fontSize: "1.3125rem",
-        fontWeight: 500,
+      "fontSize": 14,
+      "fontWeightMedium": 500,
+      "title": {
+        "color": "rgba(0, 0, 0, 0.87)",
+        "fontFamily": "\"Roboto\", \"Helvetica\", \"Arial\", sans-serif",
+        "lineHeight": "1.16667em",
+        "fontSize": "1.3125rem",
+        "fontWeight": 500
       },
-      subheading: {
-        color: "rgba(0, 0, 0, 0.87)",
-        fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
-        lineHeight: "1.5em",
-        fontSize: "1rem",
-        fontWeight: 400,
+      "subheading": {
+        "color": "rgba(0, 0, 0, 0.87)",
+        "fontFamily": "\"Roboto\", \"Helvetica\", \"Arial\", sans-serif",
+        "lineHeight": "1.5em",
+        "fontSize": "1rem",
+        "fontWeight": 400
       },
-      body1: {
-        color: "rgba(0, 0, 0, 0.87)",
-        fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
-        lineHeight: "1.46429em",
-        fontSize: "0.875rem",
-        fontWeight: 400,
-      },
+      "body1": {
+        "color": "rgba(0, 0, 0, 0.87)",
+        "fontFamily": "\"Roboto\", \"Helvetica\", \"Arial\", sans-serif",
+        "lineHeight": "1.46429em",
+        "fontSize": "0.875rem",
+        "fontWeight": 400
+      }
     },
-    zIndex: {
-      modal: 1300,
-      snackbar: 1400,
-      drawer: 1200,
-      appBar: 1100,
-      mobileStepper: 1000,
-      tooltip: 1500,
+    "zIndex": {
+      "modal": 1300,
+      "snackbar": 1400,
+      "drawer": 1200,
+      "appBar": 1100,
+      "mobileStepper": 1000,
+      "tooltip": 1500
     },
-    shape: { borderRadius: 4 },
-    props: {},
-    spacing: { unit: 8 },
-    palette: {
-      tonalOffset: 0.2,
-      background: { paper: "#fff", default: "#fafafa" },
-      contrastThreshold: 3,
-      grey: {
+    "shape": { "borderRadius": 4 },
+    "props": {},
+    "spacing": { "unit": 8 },
+    "palette": {
+      "tonalOffset": 0.2,
+      "background": { "paper": "#fff", "default": "#fafafa" },
+      "contrastThreshold": 3,
+      "grey": {
         "50": "#fafafa",
         "100": "#f5f5f5",
         "200": "#eeeeee",
@@ -183,48 +183,48 @@ const theme = createMuiTheme(
         "700": "#616161",
         "800": "#424242",
         "900": "#212121",
-        A700: "#616161",
-        A100: "#d5d5d5",
-        A400: "#303030",
-        A200: "#aaaaaa",
+        "A700": "#616161",
+        "A100": "#d5d5d5",
+        "A400": "#303030",
+        "A200": "#aaaaaa"
       },
-      text: {
-        primary: "rgba(0, 0, 0, 0.87)",
-        secondary: "rgba(0, 0, 0, 0.54)",
-        disabled: "rgba(0, 0, 0, 0.38)",
-        hint: "rgba(0, 0, 0, 0.38)",
+      "text": {
+        "primary": "rgba(0, 0, 0, 0.87)",
+        "secondary": "rgba(0, 0, 0, 0.54)",
+        "disabled": "rgba(0, 0, 0, 0.38)",
+        "hint": "rgba(0, 0, 0, 0.38)"
       },
-      divider: "rgba(0, 0, 0, 0.12)",
-      secondary: {
-        main: "#FF9800",
-        light: "rgb(255, 172, 51)",
-        dark: "rgb(178, 106, 0)",
-        contrastText: "rgba(0, 0, 0, 0.87)",
+      "divider": "rgba(0, 0, 0, 0.12)",
+      "secondary": {
+        "main": "#eeeeee",
+        "light": "rgb(241, 241, 241)",
+        "dark": "rgb(166, 166, 166)",
+        "contrastText": "rgba(0, 0, 0, 0.87)"
       },
-      common: { black: "#000", white: "#fff" },
-      error: {
-        light: "#e57373",
-        main: "#f44336",
-        dark: "#d32f2f",
-        contrastText: "#fff",
+      "common": { "black": "#000", "white": "#fff" },
+      "error": {
+        "light": "#e57373",
+        "main": "#f44336",
+        "dark": "#d32f2f",
+        "contrastText": "#fff"
       },
-      type: "light",
-      action: {
-        hoverOpacity: 0.08,
-        hover: "rgba(0, 0, 0, 0.08)",
-        selected: "rgba(0, 0, 0, 0.14)",
-        disabledBackground: "rgba(0, 0, 0, 0.12)",
-        disabled: "rgba(0, 0, 0, 0.26)",
-        active: "rgba(0, 0, 0, 0.54)",
+      "type": "light",
+      "action": {
+        "hoverOpacity": 0.08,
+        "hover": "rgba(0, 0, 0, 0.08)",
+        "selected": "rgba(0, 0, 0, 0.14)",
+        "disabledBackground": "rgba(0, 0, 0, 0.12)",
+        "disabled": "rgba(0, 0, 0, 0.26)",
+        "active": "rgba(0, 0, 0, 0.54)"
       },
-      primary: {
-        main: "#1976D2",
-        light: "rgb(71, 145, 219)",
-        dark: "rgb(17, 82, 147)",
-        contrastText: "#fff",
-      },
+      "primary": {
+        "main": "#0d193b",
+        "light": "rgb(61, 71, 98)",
+        "dark": "rgb(9, 17, 41)",
+        "contrastText": "#fff"
+      }
     },
-    themeName: "Denim Pizazz King Cobra",
+    "themeName": "Blue Zodiac Gallery Kangaroo"
   }
 )
 
