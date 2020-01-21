@@ -11,6 +11,7 @@ import { makeStyles } from "@material-ui/styles"
 import Container from "@material-ui/core/Container"
 import Button from "@material-ui/core/Button"
 import ButtonGroup from "@material-ui/core/ButtonGroup"
+import Card from "@material-ui/core/Card"
 
 import theme from "../theme/theme.js"
 
@@ -40,7 +41,7 @@ const useStyles = makeStyles({
     border: "3px solid #0d193b",
     borderRadius: "10px",
     boxShadow: "0px 1px 2px grey",
-    zIndex:'15'
+    zIndex:30
   },
   paper: {
     padding: theme.spacing(2),
@@ -71,16 +72,20 @@ const IndexPage = () => {
     <Particles/>
     <div className="page page-1 flex-center text-center" id="#landing-page">
     <Container maxWidth="lg" className="container">
-              <div id="header" style={{ height: "100vh", paddingTop: "35vh", zIndex:'10' }} className="header-shadow">
-                <h1 className="header " style={{}}>
+              <div id="header" style={{ height: "100vh", paddingTop: "35vh", zIndex:'10' }} className="header-shadow ">
+                  <div className="header">
+                <h1 className="header ">
                   Nolan Braman <br />
                   Software Developer
                 </h1>
+                    </div>
                 {/* <hr /> */}
+                <div className="header">
                 <h3 className="header-p ">
-                  Hi there! I build fast, user-experience friendly webapps in
+                  Hi there! I build fast web applications & software in
                   JavaScript and Python.
                 </h3>
+                  </div>
                 <nav>
                   <ButtonGroup color="secondary" className={classes.buttonGroup} >
                   
