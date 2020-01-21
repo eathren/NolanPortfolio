@@ -41,7 +41,6 @@ const useStyles = makeStyles({
     border: "3px solid #0d193b",
     borderRadius: "10px",
     boxShadow: "0px 1px 2px grey",
-    zIndex: 30,
   },
   paper: {
     padding: theme.spacing(2),
@@ -68,10 +67,10 @@ const IndexPage = () => {
         <SEO title="Home" />
         <Particles />
         <div className="page page-1 flex-center text-center" id="#landing-page">
-          <Container maxWidth="lg">
+        
             <div
               id="header"
-              style={{ height: "100vh", paddingTop: "35vh", zIndex: "10" }}
+              style={{ height: "100vh", paddingTop: "25vh", zIndex: "10" }}
               className="header-shadow "
             >
               <div className="header">
@@ -80,7 +79,7 @@ const IndexPage = () => {
                   Software Developer
                 </h1>
               </div>
-              {/* <hr /> */}
+        
               <div className="header">
                 <h3 className="header-p ">
                   Hi there! I build fast web applications & software in
@@ -120,7 +119,7 @@ const IndexPage = () => {
                 </ButtonGroup>
               </nav>
             </div>
-          </Container>
+          
         </div>
         {/* <div className="image-wrapper">
         <img className="tree" src={Tree} />
