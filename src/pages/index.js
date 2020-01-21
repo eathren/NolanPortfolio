@@ -32,7 +32,7 @@ const useStyles = makeStyles({
     margin: `8px`,
     border: "6px solid #1976d2",
     borderRadius: "20px",
-    zIndex:'15'
+    zIndex: "15",
   },
   cardContent: {
     margin: "8px",
@@ -41,13 +41,13 @@ const useStyles = makeStyles({
     border: "3px solid #0d193b",
     borderRadius: "10px",
     boxShadow: "0px 1px 2px grey",
-    zIndex:30
+    zIndex: 30,
   },
   paper: {
     padding: theme.spacing(2),
     textAlign: "center",
     color: theme.palette.text.secondary,
-    zIndex:'15'
+    zIndex: "15",
   },
   skillsMarginBottom: {
     marginBottom: "0px",
@@ -60,72 +60,72 @@ const useStyles = makeStyles({
   },
 })
 
-
 const IndexPage = () => {
   const classes = useStyles()
   return (
     <>
-
- 
-  <Layout>
-    <SEO title="Home" />
-    <Particles/>
-    <div className="page page-1 flex-center text-center" id="#landing-page">
-    <Container maxWidth="lg" className="container">
-              <div id="header" style={{ height: "100vh", paddingTop: "35vh", zIndex:'10' }} className="header-shadow ">
-                  <div className="header">
+      <Layout>
+        <SEO title="Home" />
+        <Particles />
+        <div className="page page-1 flex-center text-center" id="#landing-page">
+          <Container maxWidth="lg">
+            <div
+              id="header"
+              style={{ height: "100vh", paddingTop: "35vh", zIndex: "10" }}
+              className="header-shadow "
+            >
+              <div className="header">
                 <h1 className="header ">
                   Nolan Braman <br />
                   Software Developer
                 </h1>
-                    </div>
-                {/* <hr /> */}
-                <div className="header">
+              </div>
+              {/* <hr /> */}
+              <div className="header">
                 <h3 className="header-p ">
                   Hi there! I build fast web applications & software in
                   JavaScript and Python.
                 </h3>
-                  </div>
-                <nav>
-                  <ButtonGroup color="secondary" className={classes.buttonGroup} >
-                  
-                    <Button
-                      variant="contained"
-                      component={SmoothLink}
-                      spy={true}
-                      smooth={true}
-                      to="portfolio"
-                    >
-                      Work
-                    </Button>
-                    {/* <Button variant="contained">Rate</Button> */}
-                    <Button
-                      variant="contained"
-                      component={SmoothLink}
-                      spy={true}
-                      smooth={true}
-                      to="blog"
-                    >
-                      Blog
-                    </Button>
-                    <Button
-                      variant="contained"
-                      component={SmoothLink}
-                      spy={true}
-                      smooth={true}
-                      to="contact"
-                    >
-                      Contact
-                    </Button>
-                  </ButtonGroup>
-                </nav>
               </div>
-            </Container>
+              <nav>
+                <ButtonGroup color="secondary" className={classes.buttonGroup}>
+                  <Button
+                    variant="contained"
+                    component={SmoothLink}
+                    spy={true}
+                    smooth={true}
+                    to="portfolio"
+                  >
+                    Work
+                  </Button>
+                  {/* <Button variant="contained">Rate</Button> */}
+                  <Button
+                    variant="contained"
+                    component={SmoothLink}
+                    spy={true}
+                    smooth={true}
+                    to="blog"
+                  >
+                    Blog
+                  </Button>
+                  <Button
+                    variant="contained"
+                    component={SmoothLink}
+                    spy={true}
+                    smooth={true}
+                    to="contact"
+                  >
+                    Contact
+                  </Button>
+                </ButtonGroup>
+              </nav>
             </div>
-      {/* <div className="image-wrapper">
+          </Container>
+        </div>
+        {/* <div className="image-wrapper">
         <img className="tree" src={Tree} />
       </div> */}
-      {/* <div className="header-shadow" style ={{ position:'absolute', }}>
+        {/* <div className="header-shadow" style ={{ position:'absolute', }}>
 
       <h1  >
        Nolan Braman
@@ -138,7 +138,7 @@ const IndexPage = () => {
       </div>
       
     </div> */}
-    {/* <div className="page page-2 flex-center" id="#about">
+        {/* <div className="page page-2 flex-center" id="#about">
       <div className="container">
         <Link to="/about">
           <h1 className="text-center text-light text-underline"> About </h1>
@@ -219,22 +219,22 @@ const IndexPage = () => {
         </div>
       </div>
     </div> */}
-    <div className="page page-3 flex-center" id="portfolio">
-      <Gallery />
-    </div>
-    <div className="page page-4 flex-center" id="blog">
-      <Link to="/blog">
-        <h1> Blog </h1>
-      </Link>
-      <BlogCard />
-    </div>
+        <div className="page page-3 flex-center" id="portfolio">
+          <Gallery />
+        </div>
+        <div className="page page-4 flex-center" id="blog">
+          <Link to="/blog">
+            <h1> Blog </h1>
+          </Link>
+          <BlogCard />
+        </div>
 
-    <div className="page page-5 flex-center" id="contact">
-      <ContactBar />
-    </div>
-  </Layout>
-  </>
+        <div className="page page-5 flex-center" id="contact">
+          <ContactBar />
+        </div>
+      </Layout>
+    </>
   )
-  }
+}
 
 export default IndexPage
