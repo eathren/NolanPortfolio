@@ -70,7 +70,7 @@ const IndexPage = () => {
         
             <div
               id="header"
-              style={{ height: "100vh", paddingTop: "25vh", zIndex: "10" }}
+              style={{ height: "100vh", paddingTop: "15vh", zIndex: "10" }}
               className="header-shadow "
             >
               <div className="header">
