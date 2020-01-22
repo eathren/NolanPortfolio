@@ -5,6 +5,8 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
 
+import Button from "@material-ui/core/Button"
+
 // Mui
 
 class BlogPostTemplate extends React.Component {
@@ -43,6 +45,7 @@ class BlogPostTemplate extends React.Component {
                     </Link>
                   )}
                 </li>
+
                 <li>
                   {next && (
                     <Link to={next.fields.slug} rel="next">
@@ -51,6 +54,17 @@ class BlogPostTemplate extends React.Component {
                   )}
                 </li>
               </ul>
+              <div style={{ textAlign: "center", position: "absolute" }}>
+                <Button
+                  component={Link}
+                  to="/blog"
+                  color="primary"
+                  variant="contained"
+                >
+                  {" "}
+                  Back to Posts{" "}
+                </Button>
+              </div>
             </>
           </div>
         </div>
