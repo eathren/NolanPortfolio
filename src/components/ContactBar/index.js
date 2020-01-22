@@ -28,7 +28,7 @@ export class ContactItem extends Component {
       },
       body: encode({ "form-name": "contact", ...this.state }),
     })
-      //   .then(() => alert("Success!"))
+      .then(() => (alert("Success!") ? "" : window.location.reload()))
       .catch(error => alert(error))
 
     e.preventDefault()
