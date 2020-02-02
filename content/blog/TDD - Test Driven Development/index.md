@@ -1,5 +1,5 @@
 ---
-title: "TDD - Test Driven Development"
+title: "TDD - Test Driven Development and Modern Agile "
 date: "2020-01-31"
 description: "An argument and short exploration of Test Driven Development in modern Python3 and JavaScript."
 tags: 
@@ -18,11 +18,19 @@ tags:
 ---
 
 
-### Test Driven Development? 
+### TDD is not a new idea. 
 
-TDD is not a new idea. However, right now in the age of agile, 1 and 2 week sprints, it is an idea that doesn't seem like it gets to be used much. 
+Credited to have been invented by Kent Beck back in the 1950's, test-driven development is the idea of making a test before you write the code related to the task at hand. However, right now in the age of agile teams, two week sprints, and quite frankly whip-lash as developers bounce between projects, it is an idea that doesn't seem like it gets to see the light of day very often. 
 
-Most software design I've encountered (in my own little realm) seems to follow the agile theories. A rapid environment, at it's premise centered around keeping the customer in contact with the a fast, working product that goes through continuous integrations until it reaches a polished final piece (ideally). 
+#### It doesn't help that in the frontend, creating tests feels really... futile. 
+
+When I get the chance to do do some back-end code, TDD is just delightful. It allows decomposition, compartimentalization, and assurance that when something should work, it is immediately obvious whether it does or not. 
+
+However, most of my work takes place in the frontend. When one thing I've learned is that honestly, the user interface doesn't last that long. And if it doesn't last as long, and a slew of new features need to be up by friday (or Saturday... or maybe Monday. Who am I kidding. Probably Monday.), there just isn't time to write snapshot tests, especially before I write the visual component or state itself. 
+
+
+
+Most software design I've encountered (in my own little realm) seems to follow the agile practices. A rapid environment, at it's premise centered around keeping the customer in contact with the a fast, working product that goes through continuous integrations until it reaches a polished final piece (ideally). 
 
 TDD, by comparison, works by taking a very small piece of the project, and then generally writing the test for whatever you hope to build. After the test is built, the feature is then built. 
 
