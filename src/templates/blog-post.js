@@ -6,7 +6,8 @@ import Layout from "../components/Layout"
 import SEO from "../components/seo"
 
 import Button from "@material-ui/core/Button"
-
+import HomeIcon from "@material-ui/icons/Home"
+import IconButton from "@material-ui/core/IconButton"
 // Mui
 
 class BlogPostTemplate extends React.Component {
@@ -21,6 +22,9 @@ class BlogPostTemplate extends React.Component {
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
+        <IconButton>
+          <HomeIcon />
+        </IconButton>
         <div className="page-blog">
           <div style={{ padding: "30px" }}>
             <>

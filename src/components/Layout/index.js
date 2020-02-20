@@ -28,7 +28,8 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <React.StrictMode>
+    // <React.StrictMode>
+    <>
       <CssBaseline />
       <MuiThemeProvider theme={theme}>
         {/* <Header siteTitle={data.site.siteMetadata.title} /> */}
@@ -41,7 +42,8 @@ const Layout = ({ children }) => {
           </footer>
         </div>
       </MuiThemeProvider>
-    </React.StrictMode>
+    </>
+    // </React.StrictMode>
   )
 }
 
