@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 
 import Button from "@material-ui/core/Button"
 import IconButton from "@material-ui/core/IconButton"
-import HomeIcon from "@material-ui/Icons/Home"
+import HomeIcon from "@material-ui/icons/Home"
 import LocalLibrary from "@material-ui/icons/LocalLibrary"
 // Mui
 
