@@ -43,11 +43,11 @@ If you pasted the above code and ran it, it would take a few seconds to fetch, a
 length: 10
 ```
 
-### Using 'live' data instead
-
 That's neat and all, but we're really just fetching a string (bunch of text-characters together), and it's not **too** exciting. I mean, we got a few lines with funny brackets. Big deal, right?
 
-Well here is one from blockchain.info. It pulls the latest bitcoin price in 15 minute brackets for many of the top currencies in the world. Let's try pulling it all in exactly the same way as we did before, and then parse it down to just something readable and that we care about (USD).
+### Using 'live' data instead
+
+Well here is one from blockchain.info. It pulls the latest bitcoin price in 15 minute brackets for many of the top currencies in the world. Let's try pulling it all in exactly the same way as we did before, and then after we'll refine our list to only what we care about (USD) so there's less information and a bit more readable readable.
 
 ```js
 fetch("https://blockchain.info/ticker")
@@ -55,7 +55,7 @@ fetch("https://blockchain.info/ticker")
   .then(json => console.log(json))
 ```
 
-which returns something that looks like this
+this returns something that looks like this
 
 ```js
 
@@ -122,7 +122,7 @@ which returns a grand total of
 9581.1
 ```
 
-And there it is! If we were building a frontend, we could manipulate it further, changing how it looks, or waiting for some kind of user interaction to fetch. But for now, and for this, just the information is just fine. Also, since we assigned the fetch to a variable, as long as you have that browser tab open, you can simply type 'price', and hit enter, and it will run that fetch all over again, telling you the latest.
+And there it is! If we were building a frontend, we could manipulate it further, changing how it looks, or waiting for some kind of user interaction to fetch. But for now, and for this, just the information is just fine. **Also, since we assigned the fetch to a variable, as long as you have that browser tab open, you can simply type 'price', and hit enter, and it will run that fetch all over again, telling you the latest.**
 
 And that's really it. The great power of the web, of fetching data, of interacting databses, is just talking to databases at just the right spot asking for just the right information. (you can also POST information too, but perhaps we'll save that for another time.)
 
