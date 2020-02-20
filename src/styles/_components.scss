@@ -123,8 +123,12 @@
   }
 }
 
+.blog-card-container {
+  margin: 20px;
+}
+
 .blog-card {
-  margin: 30px;
+  margin: 30px auto;
   max-width: 1200px;
   background-color: $c-2;
   color: white;
