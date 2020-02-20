@@ -6,8 +6,9 @@ import Layout from "../components/Layout"
 import SEO from "../components/seo"
 
 import Button from "@material-ui/core/Button"
-import HomeIcon from "@material-ui/icons/Home"
 import IconButton from "@material-ui/core/IconButton"
+import HomeIcon from "@material-ui/Icons/Home"
+import LocalLibrary from "@material-ui/icons/LocalLibrary"
 // Mui
 
 class BlogPostTemplate extends React.Component {
@@ -22,9 +23,14 @@ class BlogPostTemplate extends React.Component {
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
-        <IconButton>
-          <HomeIcon />
-        </IconButton>
+        <div style={{ position: "absolute", left: "15px", top: "15px" }}>
+          <IconButton component={Link} to="/">
+            <HomeIcon></HomeIcon>
+          </IconButton>
+          <IconButton component={Link} to="/blog">
+            <LocalLibrary></LocalLibrary>
+          </IconButton>
+        </div>
         <div className="page-blog">
           <div style={{ padding: "30px" }}>
             <>
