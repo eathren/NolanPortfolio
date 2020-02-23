@@ -1,12 +1,12 @@
 ---
 title: "What Is An API Anyways?"
-date: "2020-01-14"
+date: "2020-02-14"
 description: "API's are critical to the functioning of the web and software all over the globe. Here we discuss what they are, what they do, and how to use them."
 ---
 
 ### An AP...What?
 
-API stands for Application Programming Interface. This sounds like mumbo-jumbo to most people who haven't come across it before. As names go, it's honestly kind of rubbish at first glace. What kind of Programming? Interface to what? What applications? That's because most of what we as humans visibly interact with on the web are User Interfaces. However, an API is made for machines to talk to machines, or for data and other features that have become critical for the we. From logging in and authorization, data, push notification, weather reports, news sites, pretty much everything on the web is using some flavor of api.
+API stands for Application Programming Interface. This sounds like mumbo-jumbo to most people who haven't come across it before. As names go, it's honestly kind of rubbish at first glace. What kind of Programming? Interface to what? What applications? That's because most of what we as humans visibly interact with on the web are User Interfaces. However, an API is made for machines to talk to machines, or for data and other features that have become critical for the web. From logging in and authorization, data, push notification, weather reports, news sites, pretty much everything on the web is using some flavor of api.
 
 Probably the best description that I've ever heard to describe these are to think of them as the 'the waiters of the internet'. Most modern softwares exist in two parts. The **frontend**, which is what the user sees and interacts with, and the **backend**, where the data lives, records, and is worked with to do all the neat things we've come to expect from software. An API is a piece of the server that takes the users requests (the order), takes it to the kitchen (the server), and then returns with the meal (the data). Without API's, users would sit at tables hungry, and kitchens would be full of food with nothing to do. (of course, they do not need users to dictate what they data they want to see/what they want to order. Many, many apis are used just by default to bringdata & information in, manipulate it, use it, or show it. For example news sites often use them to show the rss feed without the user ever hitting a button.)
 
