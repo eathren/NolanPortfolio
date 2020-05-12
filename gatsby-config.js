@@ -111,7 +111,7 @@ module.exports = {
         background_color: `#23568f`,
         theme_color: `#23568f`,
         display: `standalone`,
-        icon: `public/android-chrome-512x512.png`, // This path is relative to the root of the site.
+        icon: `src/images/android-chrome-512x512.png`, // This path is relative to the root of the site.
       },
     },
     {
