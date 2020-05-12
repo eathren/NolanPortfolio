@@ -23,16 +23,15 @@ class BlogPostTemplate extends React.Component {
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
-        <div style={{ position: "absolute", left: "15px", top: "15px" }}>
+        <div className="page-blog">
           <IconButton component={Link} to="/">
             <HomeIcon></HomeIcon>
           </IconButton>
           <IconButton component={Link} to="/blog">
             <LocalLibrary></LocalLibrary>
           </IconButton>
-        </div>
-        <div className="page-blog">
-          <div style={{ padding: "30px" }}>
+          <br />
+          <div>
             <>
               <h2 style={{ marginBottom: "15px" }}>{post.frontmatter.title}</h2>
               <p>{post.frontmatter.date}</p>

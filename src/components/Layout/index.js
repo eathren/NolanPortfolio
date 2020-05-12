@@ -34,7 +34,9 @@ const Layout = ({ children }) => {
       <MuiThemeProvider theme={theme}>
         {/* <Header siteTitle={data.site.siteMetadata.title} /> */}
         <div>
-          <main style={{ maxWidth: "100%" }}>{children}</main>
+          <main style={{ maxWidth: "100%" }} className="layout-root">
+            {children}
+          </main>
           <footer>
             {/* © {new Date().getFullYear()}, Built with
           {` `}

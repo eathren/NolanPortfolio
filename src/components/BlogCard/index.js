@@ -14,7 +14,7 @@ export default () => (
         }
         allMarkdownRemark(
           sort: { fields: [frontmatter___date], order: DESC }
-          limit: 3
+          limit: 5
         ) {
           edges {
             node {
@@ -45,7 +45,7 @@ export default () => (
               const title = node.frontmatter.title || node.fields.slug
               return (
                 <div key={node.fields.slug}>
-                  <Link className="" to={node.fields.slug}>
+                  <Link className="link-normalize" to={node.fields.slug}>
                     <h2 className="blog-card-title">{title}</h2>
                   </Link>
                   <small className="blog-card-date">
@@ -57,19 +57,18 @@ export default () => (
                       __html: node.frontmatter.description || node.excerpt,
                     }}
                   />
-                  <br />
-                  <Link className="" to={node.fields.slug}>
+
+                  {/* <Link className="" to={node.fields.slug}>
                     <button className="button-blog">Read More</button>
-                  </Link>
-                  <br />
-                  <br />
-                  <hr
+                  </Link> */}
+
+                  {/* <hr
                     style={{
                       textAlign: "center",
                       margin: "auto",
                       width: "95%",
                     }}
-                  ></hr>
+                  ></hr> */}
                   <br />
                 </div>
               )

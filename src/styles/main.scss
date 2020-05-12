@@ -17,6 +17,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+  background-color: $c-3;
+}
+
 .page {
   // padding: $page-padding;
   // background-color: $c-3;
@@ -26,6 +30,7 @@ body {
 
 .container {
   max-width: $page-width;
+  margin: 0 auto;
 }
 
 .flex-center {
@@ -50,10 +55,33 @@ body {
   }
 }
 
+.layout-root {
+  background-color: $c-3;
+  color: $c-secondary;
+  a {
+    color: $c-secondary;
+  }
+}
+
+.page-home {
+  min-height: 100vh;
+  background: linear-gradient(45deg, $c-3 50%, $c-4 50%);
+  padding: 20px;
+  color: #eeeeee;
+  .icon-color {
+    color: $c-5;
+  }
+
+  .icon-color-secondary {
+    padding-top: 10px;
+    color: $c-1;
+  }
+}
+
 .page-1 {
   padding-top: 100px;
   background-color: $c-0;
-  height: 90vh;
+  height: 100vh;
   .header-shadow {
     // -webkit-text-stroke-width: 1px;
     // -webkit-text-stroke-color: black;
@@ -83,7 +111,8 @@ body {
 }
 
 .page-blog {
-  margin: 50px auto;
+  padding: 20px;
+  margin: 0px auto;
   max-width: $page-width;
 }
 
