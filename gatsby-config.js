@@ -108,8 +108,8 @@ module.exports = {
         name: `Nolan Braman | Software Developer`,
         short_name: `Nolan Braman`,
         start_url: `/`,
-        background_color: `#23568f`,
-        theme_color: `#23568f`,
+        background_color: `#007ea7`,
+        theme_color: `#007ea7`,
         display: `standalone`,
         icon: `src/images/android-chrome-512x512.png`, // This path is relative to the root of the site.
       },
