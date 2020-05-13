@@ -38,6 +38,7 @@ class BlogPostTemplate extends React.Component {
               <hr />
               <div dangerouslySetInnerHTML={{ __html: post.html }} />
 
+              <hr />
               <ul
                 style={{
                   display: `flex`,
@@ -63,16 +64,20 @@ class BlogPostTemplate extends React.Component {
                   )}
                 </li>
               </ul>
-              <div style={{ textAlign: "center", position: "absolute" }}>
+              <div style={{ display: "inline" }}>
                 <Button
                   component={Link}
                   to="/blog"
-                  color="primary"
+                  color="secondary"
                   variant="contained"
+                  style={{ color: "black" }}
                 >
                   {" "}
                   Back to Posts{" "}
                 </Button>
+              </div>
+              <div style={{ textAlign: "center" }}>
+                © 2018 - {new Date().getFullYear()}, Nolan Braman
               </div>
             </>
           </div>

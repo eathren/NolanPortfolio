@@ -58,6 +58,7 @@ body {
 .layout-root {
   background-color: $c-3;
   color: $c-secondary;
+  min-height: 100vh;
   a {
     color: $c-secondary;
   }

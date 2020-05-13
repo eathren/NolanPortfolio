@@ -20,4 +20,4 @@ I suppose this brings me to my next rambling point. Deadlines are the origin of 
 
 All deadlines do is dumb down this process for an incomplete product. There must be somewhere, a musty old tome from the very first engineers of computers that states that any rushed job is an incomplete job. Any chain of logic that is rushed will have holes and be flawed. If you give two weeks to an individual to come through and sprint a project, and then hire two developers to maintain and add onto the project later, you have not saved any money. In most cases, coming into a codebase and understanding its quirks is harder than writing it in the first place. So now a project is incomplete, it's costing more to maintain than it ever would have taken to write, and it's a black spot on the programmer's conscience. Who can enjoy a flawed argument? What painter wants to mark half the canvas and then hand it off to be finished? No one I can imagine.
 
-Have a point, or disagree with what I said? Shoot me a message in the top-right corner. I'd love to know what you think.
+Have a point, or disagree with what I said? Shoot me a message. I'd love to know what you think.

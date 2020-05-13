@@ -36,12 +36,11 @@ const Layout = ({ children }) => {
         <div>
           <main style={{ maxWidth: "100%" }} className="layout-root">
             {children}
+            {/* <footer style={{ textAlign: "center" }}>
+              © {new Date().getFullYear()}, Nolan Braman
+              <br />
+            </footer> */}
           </main>
-          <footer>
-            {/* © {new Date().getFullYear()}, Built with
-          {` `}
-        <a href="https://www.gatsbyjs.org">Gatsby</a> */}
-          </footer>
         </div>
       </MuiThemeProvider>
     </>
