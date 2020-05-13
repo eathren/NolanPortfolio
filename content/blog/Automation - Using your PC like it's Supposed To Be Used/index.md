@@ -1,5 +1,5 @@
 ---
-title: Automatation - Using your PC like it's Supposed To Be Used - Windows Edition
+title: Automation - Using your PC like it's Supposed To Be Used - Windows Edition
 date: "2019-04-26"
 description: " Your pc is supposed to automate its actions. Why aren't you using that?"
 ---

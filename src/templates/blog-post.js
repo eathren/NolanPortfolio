@@ -6,6 +6,7 @@ import Layout from "../components/Layout"
 import SEO from "../components/seo"
 
 import Button from "@material-ui/core/Button"
+import Grid from "@material-ui/core/Grid"
 import IconButton from "@material-ui/core/IconButton"
 import HomeIcon from "@material-ui/icons/Home"
 import LocalLibrary from "@material-ui/icons/LocalLibrary"
@@ -64,21 +65,46 @@ class BlogPostTemplate extends React.Component {
                   )}
                 </li>
               </ul>
-              <div style={{ display: "inline" }}>
-                <Button
-                  component={Link}
-                  to="/blog"
-                  color="secondary"
-                  variant="contained"
-                  style={{ color: "black" }}
-                >
-                  {" "}
-                  Back to Posts{" "}
-                </Button>
-              </div>
-              <div style={{ textAlign: "center" }}>
-                © 2018 - {new Date().getFullYear()}, Nolan Braman
-              </div>
+              <Grid
+                container
+                direction="row"
+                justify="space-between"
+                alignItems="center"
+              >
+                <Grid item xs={4}>
+                  <Button
+                    component={Link}
+                    to="/blog"
+                    color="secondary"
+                    variant="contained"
+                    style={{ color: "black", float: "left" }}
+                  >
+                    {" "}
+                    Back to Posts{" "}
+                  </Button>
+                </Grid>
+                <Grid item xs={4}>
+                  <div style={{ textAlign: "center" }}>
+                    © 2018 - {new Date().getFullYear()}, Nolan Braman
+                  </div>
+                </Grid>
+                <Grid item xs={4}>
+                  <Button
+                    component={Link}
+                    to="/contact"
+                    color="secondary"
+                    variant="contained"
+                    style={{
+                      color: "black",
+
+                      float: "right",
+                    }}
+                  >
+                    {" "}
+                    Message me!
+                  </Button>
+                </Grid>
+              </Grid>
             </>
           </div>
         </div>
