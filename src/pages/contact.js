@@ -46,7 +46,19 @@ export class ContactItem extends Component {
           <div className=" center " style={{}}>
             <Container maxWidth="md">
               <Card className="card">
-                <h4> Want To Get In Touch? Send A Message!</h4>
+                <h4>
+                  {" "}
+                  Send me a message, and I'll reply soon! (Or, you can contact
+                  me{" "}
+                  <a
+                    className="link-dark"
+                    href="https://www.linkedin.com/in/nolanbraman/"
+                  >
+                    {" "}
+                    here
+                  </a>
+                  )
+                </h4>
                 <form
                   onSubmit={this.handleSubmit}
                   name="contact"

@@ -76,6 +76,11 @@ body {
     padding-top: 10px;
     color: $c-1;
   }
+
+  .icon-button:hover {
+    margin-top: -5px;
+    color: #ffffff;
+  }
 }
 
 .page-1 {

@@ -17,6 +17,7 @@ import IconButton from "@material-ui/core/IconButton"
 import Grid from "@material-ui/core/Grid"
 // icons
 import GitHubIcon from "@material-ui/icons/GitHub"
+import MailIcon from "@material-ui/icons/Mail"
 import LinkedInIcon from "@material-ui/icons/LinkedIn"
 import TrendingUpIcon from "@material-ui/icons/TrendingUp"
 import theme from "../theme/theme.js"
@@ -85,11 +86,24 @@ const IndexPage = () => {
                 <p className="text-margin-none">
                   Building better software for two years and counting{" "}
                 </p>
-                <IconButton href="https://github.com/eathren">
+                <IconButton
+                  className="icon-button"
+                  href="https://github.com/eathren"
+                >
                   <GitHubIcon className="icon-color" />
                 </IconButton>
-                <IconButton href="https://www.linkedin.com/in/nolanbraman/">
+                <IconButton
+                  className="icon-button"
+                  href="https://www.linkedin.com/in/nolanbraman/"
+                >
                   <LinkedInIcon className="icon-color" />
+                </IconButton>
+                <IconButton
+                  className="icon-button"
+                  component={Link}
+                  to="/contact"
+                >
+                  <MailIcon className="icon-color" />
                 </IconButton>
               </Grid>
               <Grid item xs={12} sm={12} md={6}>
