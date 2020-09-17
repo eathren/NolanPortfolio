@@ -6,7 +6,7 @@ description: "Looking back on a 16+ months of hectic, but often rewarding, work.
 
 _Full disclosure. I don't paint myself in the best light in this post. While I'm told that I do good work, my memories of first entering the field are of hectic days, frantic nights, and absorbing all the information I could grab my fingers on like a sponge-meets-blackhole._
 
-#### Last February I began my adventure working for SelfStudy, the newly fledged tech branch of Open Anesthesia.
+#### In December 2018 I began my adventure working for SelfStudy, the newly fledged tech branch of Open Anesthesia.
 
 At the time, I had some talent as the guy who could quickly make sites in Gatsby.js, a static site builder built on top of React. SelfStudy was interested in seeing how far they could stretch (read: shatter) the conventions of what static actually meant. I had done a week's worth of work for them on their marketing site when I mentioned offhand that if they needed some help with a bigger project, that I would be happy to help. It sounded fairly up my alley, and the spec consisted of a static gatsby site that would be fed a different yaml file of data each day to rebuild the site for each of their clients.
 
