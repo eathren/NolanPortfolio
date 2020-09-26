@@ -55,4 +55,15 @@ pause
 exit
 ```
 
+Moving to a certain folder in batch, and opening that folder in vsc.
+
+```bat
+@echo-off
+
+cd C:\Users\nolan\Desktop\Projects\Personal\NolanPortfolio
+code .
+```
+
+Make sure you include the full pathname for the location of the folder, otherwise it might not work.
+
 Batch is pretty old tech by this point, but it can still be useful. I'm debating whether or not I want to add in newer items, like python scripts, but for now I think that having items that will work directly out of the box on windows is more ideal for what I'm trying to achieve with this series of small projects. An easier life, that works with just a few lines and a click.
