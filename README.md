@@ -2,7 +2,6 @@
 
 ![Netlify](https://img.shields.io/netlify/9ccdad1b-04a6-41fd-9c4b-fda041a8872a)
 
-www.nolanbraman.com
 
 This is a blog detailing some of my thoughts on technology and software, as well as some techinical / "how-to" posts about overcomining some of the very specific challenges I've had to face as a software engineer. 
 
@@ -17,3 +16,4 @@ start the dev site with <code> Yarn start </code>.
 If you have issues on windows, a recent gatsby bug (or intentional design?) seems to pop up that prevents the site from building on windows. Download the netlify cli and run it with that instead. 
 
 
+### Live site is available at [www.nolanbraman.com](https://www.nolanbraman.com)
