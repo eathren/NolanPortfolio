@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import { Link, graphql, StaticQuery } from "gatsby"
-
+import Button from "@material-ui/core/Button"
 // mui
 
 export default () => (
@@ -61,7 +61,6 @@ export default () => (
                   {/* <Link className="" to={node.fields.slug}>
                     <button className="button-blog">Read More</button>
                   </Link> */}
-
                   {/* <hr
                     style={{
                       textAlign: "center",
@@ -73,6 +72,9 @@ export default () => (
                 </div>
               )
             })}
+            <Link className="" to="/blog">
+              <button className="button-blog"> All posts </button>
+            </Link>
           </div>
         </div>
       </segment>
