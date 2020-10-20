@@ -1,7 +1,7 @@
 ---
 title: Reflections On Over a Year Working For a Tech Startup
 date: "2020-04-22"
-description: "Looking back on a 16+ months of hectic, but often rewarding, work."
+description: "Looking back on a 18+ months of hectic, but often rewarding, work."
 ---
 
 _Full disclosure. I don't paint myself in the best light in this post. While I'm told that I do good work, my memories of first entering the field are of hectic days, frantic nights, and absorbing all the information I could grab my fingers on like a sponge-meets-blackhole._
