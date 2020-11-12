@@ -1,7 +1,7 @@
 ---
 title: "Resizing the Django-ckeditor To Make It Responsive"
 date: "2020-11-01"
-description: "Small tip on making the editor repsonsive after installing it with Django"
+description: "Small tip on making the responsive after installing it with Django"
 ---
 
 This will be a quick one.
