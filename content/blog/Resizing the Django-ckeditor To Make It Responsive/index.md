@@ -49,7 +49,7 @@ Put in the following css code snippet
 }
 ```
 
-This tells the parent div that it's width is also 100% _it's_ parent div.
+This tells the parent div that it's width is also 100% of _its_ parent div.
 
 See? A seriously easy fix, but for some of those who are just gettings started, perhaps something to stumble over. If you had trouble and ended up here, you should know that you can press right click and click inspect on an element, or f12 in chrome to open up the dev tools, and then navigate the elements until you find the css class you need to modify. Then put that class into your css file with the changes you need (using !absolute isn't always the best practice, but is sometimes needed). You can also do some live testing of code changes there, but that's not always super userful after the changes dissapear on refresh.
 
