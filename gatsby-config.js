@@ -105,7 +105,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Nolan Braman | Software Developer`,
+        name: `Nolan Braman | Software Engineer`,
         short_name: `Nolan Braman`,
         start_url: `/`,
         background_color: `#007ea78p`,
