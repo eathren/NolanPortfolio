@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Nolan Braman | FullStack Developer`,
-    description: `Full-stack React | Gatsby | Django Developer based in the Greater Boston Area.`,
+    title: `Nolan Braman | Software Engineer`,
+    description: `Curious Software Engineer living in Boston. Loves to break things apart and then put them back together. Currently a MS student at Northeastern University.`,
     author: `eathren`,
     social: {
       github: `https://github.com/eathren`,
